@@ -11,7 +11,6 @@ namespace OpenWeatherMapAPI
         {
             HttpClient client = new HttpClient();
             Console.WriteLine("Please enter your API key:");
-            //string api_Key = "2d93fb15c26257b682cf08ebae8d29a5";
             string? api_Key = Console.ReadLine();
             while (true)
             {
