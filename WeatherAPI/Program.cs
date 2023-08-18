@@ -5,7 +5,7 @@ using Newtonsoft.Json.Linq;
 
 namespace OpenWeatherMapAPI
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
